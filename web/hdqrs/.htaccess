@@ -1,0 +1,15 @@
+#<Files ~ "^\.(htaccess|htpasswd)$">
+#deny from all
+#</Files>
+#AuthUserFile /var/www/html/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "Please enter your ID and password"
+#AuthType Basic
+#require valid-user 
+#order deny,allow
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|img|.+\.css$|fonts|.+\.js$|.+\.map$|.+\.png$|.+\.gif$|.+\.jpg$|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+SetEnv CI_ENV production

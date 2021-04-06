@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|img|.+\.css$|.+\.js$|.+\.png$|.+\.gif$|.+\.jpg$|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+#RewriteRule ^(.*)$ /cordinator/index.php/$1 [L]
+
+#RewriteRule ^(.*)/(.*)$ /cordinator/index.php/Co_$1/$2
+
+#RewriteCond %{HTTP_USER_AGENT} !^(smartphone.ddd$|tablets.ddd$) [NC]
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}/error/index.html [L]
+
+SetEnv CI_ENV production

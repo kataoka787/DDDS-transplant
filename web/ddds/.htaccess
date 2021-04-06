@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|img|.+\.css$|fonts|.+\.js$|.+\.map$|.+\.png$|.+\.gif$|.+\.jpg$|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+#RewriteRule ^(.*)$ /transplant/index.php/$1 [L]
+
+SetEnv CI_ENV production

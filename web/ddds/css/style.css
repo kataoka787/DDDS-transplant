@@ -1,0 +1,670 @@
+@charset "utf-8";
+
+
+/* ------basic------ */
+
+body {
+	font-family: arial, sans-serif, "ＭＳ ゴシック", "Osaka−等幅";
+	text-align:center;
+	margin: 0px;
+	color: #333333;
+	background-color: #cccccc;
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat-x;
+}
+
+#wrapper{
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+
+
+#header{
+	width:100%;
+	margin: 0px;
+	background-image: url(../img/logo.jpg);
+	background-repeat: repeat-x;
+	height: 42px;
+}
+
+#headerLogo{
+	width:100;
+	margin: 0px;
+	height: 40px;
+	float: left;
+}
+
+#headerBtn{
+	width:150;
+	margin: 0px;
+	height: 40px;
+	padding-top: 10px;
+	float: right;
+}
+
+#footer {
+	width:100%;
+	margin: 0px;
+	font-size: 9px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #A8A8CC;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#contents {
+	margin-top: 0;
+	margin-right: 30px;
+	margin-bottom: 0;
+	margin-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #FFF;
+}
+
+#topic_path{
+	text-align: left;
+	width: 712px;
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	margin-bottom: 20px;
+}
+
+.contentasBOX{
+	padding-right: 80px;
+}
+
+/* ------link------ */
+
+a:link {
+    color: #0000FF;
+    text-decoration: none;
+}
+a:visited {
+    color: #663366;
+	text-decoration: underline;
+}
+a:hover {
+    color: #660066;
+    text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+img {
+    border-style:none;
+}
+
+a img {
+    border-style:none;
+}
+
+
+#copyright{
+	width:100%;
+	margin: 0px;
+	background-color: #004EA1;
+	color: #FFFFFF;
+	font-size: 9px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+/* ------ text ------ */
+
+p{
+	line-height: 1.5em;
+}
+
+h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+h2{
+	font-size: 16px;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 3px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #B2AFD4;
+	border-left-color: #BFBADD;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+
+h3{
+	font-size: large;
+}
+
+
+.s_text{
+	font-size: 9px;
+}
+
+.m_textSTRONG{
+	font-size: medium;
+	font-weight: bold;
+}
+
+.l_text{
+	font-size: large;
+	font-weight: bold;
+}
+
+.xl_text{
+}
+
+.red{
+	color: #FF0000;
+}
+
+.cap{
+	font-size: x-small;
+}
+
+.capRED{
+	font-size: x-small;
+	color: #FF0000;
+}
+
+.textRight{
+	float: right;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+
+/* ------ img ------ */
+
+img {
+    border-style:none;
+}
+
+a img {
+    border-style:none;
+}
+
+.no_border {
+    border-style:none;
+}
+
+.img_center{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.img_left{
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	text-align: center;
+	float: left;
+}
+
+.img_right{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-align: center;
+	float: right;
+}
+	
+	
+/* ---------- Table用 ---------- */
+
+
+
+table{
+	text-align: left;
+	margin-bottom: 20px;
+}
+/*
+table{
+	margin-bottom: 20px;
+}
+
+.tableText{
+	text-align: left;
+}
+
+
+.thColor{
+	background-color: #A3A2CA;
+	color: #FFF;
+}
+
+.trColor{
+}
+
+.tdColor01{
+	background-color:#d6ffd6;
+}
+
+.tdColor02{
+	background-color:#eaffd6;
+}
+
+*/
+
+.previewTbl td{
+  text-align:center;
+}
+
+th{
+	background-color: #A3A2CA;
+	color: #FFF;
+}
+
+caption {
+	background-color: #A3A2CA;
+	color: #FFF;
+	text-align:left;
+	margin: 0 3px 0 3px;
+}
+
+.list td {
+	background: #d6ffd6;
+	padding: 5px 10px;
+	border: 1px #CCCCCC solid;
+}
+
+.list tr.even td {
+	background: #eaffd6;
+	border: 1px #CCCCCC solid;
+}
+
+/* エラー */
+
+.err{
+	margin-bottom: 20px;
+	color: #F00;
+}
+
+
+/* リスト用 */
+
+li{
+	padding-bottom: 20px;
+}
+
+
+/* ボタンセンタリング用 */
+
+
+/*
+.btnArea{	
+}
+.btnArea ul{
+	text-align: center;
+
+}
+.btnArea ul li{
+
+	display:inline;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.btnArea ul li img{
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+*/
+
+
+.btnArea{
+	
+}
+.btnArea ul{
+	text-align:center;
+}
+.btnArea ul li{
+	display:inline-block;
+	padding-right:1em;
+	/* display:inline; */
+	/* zoom:1; */
+}
+
+.btnArea li a{
+	padding:0.5em;
+}
+
+#pWrapper2{
+	font-size: medium;
+}
+
+#pWrapper2 th {
+	background: #ffffff;
+	border: 1px #CCCCCC solid;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+#pWrapper2 td {
+	background: #eeeeee;
+	border: 1px #CCCCCC solid;
+	font-size: large;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#pWrapper2 #pReq th {
+	background: #ffffff;
+	border: 1px #CCCCCC solid;
+ 	color:#000000;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#pWrapper2 #pReq td {
+	background: #ffffff;
+	border: 1px #CCCCCC solid;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+
+#pDest{
+    
+}
+
+#pSign{
+	margin-top: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#pReq{
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	margin-top: 20px;
+}
+
+.pItem01{
+	margin-top: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+	width: 30%;
+	margin-left: 10px;
+}
+
+.pItem01day{
+	float: right;
+	width: 70%;
+	text-align: right;
+}
+
+.pItem01Title{
+	width: 30%;
+	float: left;
+}
+
+.pItem02{
+	margin-top: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+
+
+.pTitle{
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.pCenter{
+	text-align: center;
+}
+
+.pRight{
+	float: right;
+}
+
+
+
+/* リスト下用 */
+
+.listMenu{
+	width: 100%;
+}
+
+
+.listMenu01{
+	margin-left: 170px;
+}
+
+.listMenu01_delete{
+	margin-left: 10px;
+}
+
+.listMenu02{
+	margin-left: 320px;
+}
+
+.listMenu02_delete{
+	margin-left: 170px;
+}
+
+.listMenu03{
+	margin-left: 470px;
+}
+
+.listMenu03_delete{
+	margin-left: 320px;
+}
+
+
+.listMenu ul{
+	list-style-type: none;
+}
+
+
+/* 検索テーブル用 */
+
+.sTable{
+	width: 1020px;
+  text-align:center;
+}
+
+.sTable2{
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.sTable p{
+	margin:0 auto;
+}
+
+
+.sTableBtn{
+	float: right;
+	position: relative;
+	top: 400px;
+	left: 10px;
+}
+
+.sTableBtn2{
+	float: left;
+	position: relative;
+	top: 400px;
+	right: 10px;
+}
+
+.sTableBtn3{
+	float: right;
+	position: relative;
+	top: 80px;
+	right: 10px;
+}
+
+
+
+/* 「前へ」「次へ」ボタン用 */
+
+.frBtnArea{
+	width: 100%;
+}
+
+.fArea{
+	float: left;
+	margin-right: 10px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.bArea{
+	float: right;
+	margin-left: 10px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+
+/* 一括登録通知テーブル用 */
+
+.entTable{
+	width: 50%;
+	float: right;
+}
+
+
+.pNoDisp{
+  display: none;
+}
+
+/* リクエスト用20120329 */
+
+.reqBgBtn{
+	background-image: url(../img/btnbg.jpg);
+	background-repeat: repeat-x;
+	padding-top: 2px;
+	padding-left: 10px;
+	color: #FFF;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	line-height: 2em;
+	
+}
+
+#accordion li{
+	list-style-type: none;
+}
+
+.reqCld{
+	line-height:80%;
+}
+
+
+#accordion ul{
+	line-height: 1.5em;
+}
+
+.iText{
+  width: 250px;
+}
+
+.cursorPointer{
+  cursor : pointer;
+}
+
+/* 20120608追加分 */
+
+.notices{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	font-size: 12px;
+}
+
+.noticesTbl{
+	width: 60%;
+	margin-left: auto;
+	font-size: 12px;
+}
+
+.noticesCenter{
+	text-align: center;
+}
+
+.noticesLtex{
+	font-size: large;
+}
+
+#pWrapper2 #p2Req th {
+	background: #ffffff;
+	border: 1px #CCCCCC solid;
+ 	color:#000000;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#pWrapper2 #p2Req td {
+	background: #ffffff;
+	border: 1px #CCCCCC solid;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+
+#p2Req{
+	margin-top: 20px;
+}
